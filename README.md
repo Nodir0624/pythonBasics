@@ -77,7 +77,7 @@ mkdir 'pythonBasics'
 # cd pythonBasics
 ```
 b. indent the line to put in code box
-    print('hello world)
+    print('hello world')
 
 ## Displaying links in MD file
 
