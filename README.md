@@ -1,3 +1,8 @@
+# Git and Github
+git -local version control system
+github - cloud respository website, website that is integrated with git system,
+shareable repository/location, that produces shareable link
+
 Git
 - local vs cloud (github)
 - create project -> enable git (enable vsc) -. define cloud -. add the cloud link (add origin)
@@ -46,7 +51,46 @@ create new branch, switch to new branch , create pull request ( highlights the c
         -you can copy the standard .gitignore file for python projects (like we did in the class)
 
     -MD files for project Documentation
+### Markdown (.md) files for Project Documantation.
+Readme files are previewed in github projects by deafult , so usually Readme files are created 
+in MArdkdown language so text formal loooks more readable and neal, links images can be also included 
+in the document. (most of functionalities you could in MS word or other text editors)
 
+* marking the text as bold**
+* italic test is covered with asterisk*
 
+## Below you can see the bullet points:
+-point 1 of many points
+-point 2 of many points
+-point 3 of many points
+
+## Highlight the code or command line
+you can highlight the code with apostrope (') or with indentation:
+```Python
+print('Python code inside the code black in md file')```
+#this is how comment line of the python code black
+``` 
+```commandline
+pwd
+cd /c/dev/
+mkdir 'pythonBasics'
+# cd pythonBasics
+```
+b. indent the line to put in code box
+    print('hello world)
+
+## Displaying links in MD file
+
+Please click [click here](https://github.com/Nodir0624/pythonBasics) to see more details about md features.
+
+## Displaying the pictures in md file
+you can see the picture below
+
+![img.png](img.png)
+
+Picture will be between the text
+## References:
+1. Level up github account [link](https://github.com/Nodir0624/pythonBasics).
+2. [Markdown support](https://github.com/Nodir0624/pythonBasics).
 
 
