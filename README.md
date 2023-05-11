@@ -89,6 +89,12 @@ you can see the picture below
 ![img.png](img.png)
 
 Picture will be between the text
+
+## Reference to the files
+1. Find the examples [here](./src/functions/functions_exec.py)
+2. Check the [getignore](.getignore) file as well
+
+
 ## References:
 1. Level up github account [link](https://github.com/Nodir0624/pythonBasics).
 2. [Markdown support](https://github.com/Nodir0624/pythonBasics).
