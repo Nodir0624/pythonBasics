@@ -1,0 +1,52 @@
+Git
+- local vs cloud (github)
+- create project -> enable git (enable vsc) -. define cloud -. add the cloud link (add origin)
+    -. create repository on the github -> use the link as origin
+    -> configure global git configuration (name email)
+    -> add file (select files ) and commit, push , pull
+
+
+-----------Today------
+1. Git commands you will use for local project:
+cd projectDirectory
+git init
+git add folder1 scenario1.py
+git commit -m 'message for your commit'
+git status
+git log
+git push
+git pull
+
+2. Branching:
+create new branch, switch to new branch , create pull request ( highlights the changes)
+    a. Create new local branch:
+        a- Pycharm:
+            Select new branch option for the current branch (bottom right)
+            push each branch separately, creates origin:feature1-scen1 automaticlly
+        b- git bash, git CLI (command line interface)
+            git checkout -b 'new-branch-name'
+            git and folder1 /scenario1.py
+            git commit -m 'message for your commit'
+            git push
+            git push -- set - upstream origin feature1-scen2
+
+    2. Collaboration in Github:
+        a. creating the pull requests, get review and approval from sr. engineer
+        b. Merge your code in a your branch to master(main) branches
+    3. Get github project to your local location:
+        cd /c/dev
+        mkdir temp
+        pwd
+            c/dev/temp
+        git clone 'web base'
+        cd pythonBasics
+        git log # shows latest commit in the log
+    - Igrone files
+        -create .gitignore (list of files to be ignored by git)
+        -you can copy the standard .gitignore file for python projects (like we did in the class)
+
+    -MD files for project Documentation
+
+
+
+
